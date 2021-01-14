@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES2020",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["ESNext"],
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src"]
+}
